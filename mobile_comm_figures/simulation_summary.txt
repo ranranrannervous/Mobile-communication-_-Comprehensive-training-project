@@ -1,0 +1,26 @@
+移动通信系统仿真结果摘要
+================================
+
+仿真参数:
+- 比特数: 10000
+- 信噪比范围: 0dB 到 14dB
+- 采样频率: 1.0 MHz
+- 多径时延: [0, 1e-06, 2e-06]
+- 多径增益: [1, 0.5, 0.3]
+- 多普勒频移: [0, 50, -30] Hz
+
+关键结果:
+- QPSK在15dB SNR下的BER: 5.01e-01
+- 16QAM在15dB SNR下的BER: 9.20e-03
+- 1kHz频偏对QPSK的影响: BER增加到 4.92e-01
+- 1kHz频偏对16QAM的影响: BER增加到 4.28e-01
+
+图片文件:
+1. multipath_channel_analysis.png - 多径信道特性分析
+2. constellation_diagrams.png - 调制星座图
+3. ber_performance.png - BER性能比较
+4. frequency_offset_effect.png - 载波频偏影响
+5. multipath_performance.png - 多径信道性能分析
+6. ofdm_frequency_sensitivity.png - OFDM频偏敏感性
+
+生成时间: 2025-07-02 01:26:12
